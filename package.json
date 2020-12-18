@@ -3,6 +3,7 @@
     "@types/node": "^14.14.14"
   },
   "dependencies": {
+    "@types/auth0": "^2.20.11",
     "@vercel/node": "^1.8.5",
     "mongoose": "^5.11.8"
   }

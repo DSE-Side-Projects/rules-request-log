@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@types/auth0@^2.20.11":
+  version "2.20.11"
+  resolved "https://registry.yarnpkg.com/@types/auth0/-/auth0-2.20.11.tgz#cf02f5d1b8b9f57b9bab0e89024931bfdc0ac26c"
+  integrity sha512-6/EUKnLWHyfGQFjyakkayi7g6geHk49j8Pf2uLli1CQbUNpvn/eM7gpOcm3RPC4sc6kIiNcSFrggfm6pNEVDtQ==
+
 "@types/bson@*":
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/@types/bson/-/bson-4.0.3.tgz#30889d2ffde6262abbe38659364c631454999fbf"
