@@ -59,10 +59,12 @@ export default async (request: NowRequest, response: NowResponse) => {
   })
 
   const newLogEntry: mongoose.Document<LogEntry> = new Log(logResponse);
+  console.info("Saving this entry", newLogEntry)
   
   // TODO: Catch errors
   newLogEntry.save({checkKeys: false}, err => {
     if (err) return console.error(err);
+    console.info("SUCCESS")
     response.status(200).send(logResponse)
   })
 
